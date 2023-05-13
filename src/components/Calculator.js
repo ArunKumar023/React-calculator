@@ -92,7 +92,7 @@ function Calculator() {
             </div>
 
             {errorMessage && <div className="error-message">{errorMessage}</div>}
-            {result && <div className="result">Result: {result}</div>}
+            {result && <div className="result">Result = {result}</div>}
 
             {result && (
                 <div className="success-message">
